@@ -23,7 +23,8 @@ function Person(name, numCats, numDogs, numLlamas){
 		};
 	}
 	this.aboutMe = function(){
-		console.log(this.name + ' you have ' + this.numCats + ' cats, ' + this.numDogs + ' dogs, and ' + this.numLlamas + ' llamas. You scoop poop for ' + this.poopScoopTime());
+		var string = this.name + ' you have ' + this.numCats + ' cats, ' + this.numDogs + ' dogs, and ' + this.numLlamas + ' llamas. You scoop poop for ' + this.poopScoopTime() + '.';
+		x.innerHTML += string + "<br>";
 	}
 }
 
@@ -38,6 +39,8 @@ array[i].aboutMe();
 }
 return array;
 }
+
+var x = document.getElementById("dataGoesHere");
 
 var primeClass = populateClass(primeClass);
 //Utility function

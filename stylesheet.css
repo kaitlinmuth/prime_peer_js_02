@@ -1,0 +1,24 @@
+body {
+
+	font-family: Montserrat, sans-serif;
+}
+
+div {
+	height: 15em;
+	background-image: url("llama.jpeg");
+	background-repeat: repeat;
+}
+
+h1 {
+	padding-top: 1.5em;
+	text-align: center;
+	font-size: 4em;
+}
+
+#dataGoesHere {
+	font-size: 1.25em;
+	line-height: 2em;
+	text-align: justify;
+	text-justify: distribute;
+	margin: 2.5em;
+}
